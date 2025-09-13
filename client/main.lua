@@ -18,4 +18,5 @@ CreateThread(function()
     for name, _ in pairs(Setting.Replaces) do
         AddReplaceTexture('minimap', name, 'replace_blip', 'replace_' .. name)
     end
+    print('All minimap blip textures have been replaced.')
 end)
